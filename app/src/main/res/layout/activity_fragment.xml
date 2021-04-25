@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#01B764">
+
+    <GridLayout
+        android:id="@+id/grid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/btntikla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/buton_tasarimi_tiklama"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Hepsi"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@android:color/background_dark"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/border1"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:background="@drawable/border_tasarim"
+            android:text="" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/grid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/btntikla1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/buton_tasarimi_tiklama"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Bugün"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/border2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/border_tasarim"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:visibility="invisible"
+            android:text="" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/grid3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/btntikla2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/buton_tasarimi_tiklama"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Kitap Taleb"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/border3"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_column="0"
+            android:background="@drawable/border_tasarim"
+            android:onClick="tiklandi"
+            android:layout_row="1"
+            android:visibility="invisible"
+            android:text="" />
+    </GridLayout>
+
+</LinearLayout>

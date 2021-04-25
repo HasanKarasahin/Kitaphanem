@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kitap Klübü</string>
+    <string name="Email">Email</string>
+    <string name="Parola">Parola</string>
+    <string name="cikisyap">Çıkış Yap</string>
+    <string name="kullaniciSil">Hesabi Sil</string>
+    <string name="coder1"> <b>H</b>asan <b>K </b>araşahin</string>
+    <string name="coder2"> <b>H</b>idayet <b>Ö</b>zdemir</string>
+</resources>

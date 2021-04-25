@@ -1,0 +1,267 @@
+{
+  "project_info": {
+    "project_number": "134511376683",
+    "firebase_url": "https://kitapklubudb.firebaseio.com",
+    "project_id": "kitapklubudb",
+    "storage_bucket": "kitapklubudb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134511376683:android:94eb845a2346351af5ed6e",
+        "android_client_info": {
+          "package_name": "com.example.booksstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH0bWWfQAvuURBzrbhg1M_jKy2hmAPuEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134511376683:android:ab86d5516e58df95",
+        "android_client_info": {
+          "package_name": "com.example.hasan.android_projesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134511376683-900ijc4cd651ohqejqkm31589hg5kcet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hasan.android_projesi",
+            "certificate_hash": "444ee2d8d43d47b4f26ea604485d55c1a614f658"
+          }
+        },
+        {
+          "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH0bWWfQAvuURBzrbhg1M_jKy2hmAPuEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134511376683:android:36f15dfb99647349",
+        "android_client_info": {
+          "package_name": "com.example.hasan.kitap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH0bWWfQAvuURBzrbhg1M_jKy2hmAPuEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134511376683:android:7fbe4c09f7feea8a",
+        "android_client_info": {
+          "package_name": "com.example.hasan.kitapapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134511376683-mui49c77g1h9dosndc3t83a99pds08df.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hasan.kitapapp",
+            "certificate_hash": "b733a006290b6ff49968109879c82861f98a565a"
+          }
+        },
+        {
+          "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH0bWWfQAvuURBzrbhg1M_jKy2hmAPuEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134511376683:android:f984aa519f732eb0",
+        "android_client_info": {
+          "package_name": "com.example.hasan.kitapappsaasdasdasd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH0bWWfQAvuURBzrbhg1M_jKy2hmAPuEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134511376683:android:89fcc5cc55205c48",
+        "android_client_info": {
+          "package_name": "com.example.hasan.testbookstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134511376683-mmrfajobnsc89rs8p5o3noj8udmnaj8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hasan.testbookstore",
+            "certificate_hash": "b733a006290b6ff49968109879c82861f98a565a"
+          }
+        },
+        {
+          "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH0bWWfQAvuURBzrbhg1M_jKy2hmAPuEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134511376683:android:9463d13dec9fb12df5ed6e",
+        "android_client_info": {
+          "package_name": "com.hk_book_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH0bWWfQAvuURBzrbhg1M_jKy2hmAPuEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134511376683:android:60296482e3b08539f5ed6e",
+        "android_client_info": {
+          "package_name": "com.hk_book_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH0bWWfQAvuURBzrbhg1M_jKy2hmAPuEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134511376683-9fbmf4a2011llon028jukr4vmve7g5eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

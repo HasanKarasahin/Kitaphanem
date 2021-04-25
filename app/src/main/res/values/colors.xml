@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#51a5cf</color>      <!-- ArkaPlan -->
+    <color name="colorPrimaryDark">#539ac4</color>  <!-- ArkaPlan -->
+    <color name="colorAccent">#000000</color>     <!-- Textbox iç Border -->
+    <color name="backgroundColor">#F6F6F6</color>   <!-- ArkaPlan -->
+    <color name="uyeButtonColor">#302f2d</color>    <!-- UyeButonlari -->
+    <color name="barbildirim">#000</color>
+    <color name="bar">#01B764</color>
+    <color name="yazarisimcolor">#970647</color>
+    <color name="zamancolor">#970647</color>
+    <color name="kirmizi">#EDEEF2</color>
+    <color name="bagis">#EDEEF2</color>
+
+    <color name="sagMesajKutusuColor">#01B764</color>
+    <color name="solMesajKutusuColor">#EDEEF2</color>
+    <color name="mesajArkaPlan">#F6F6F6</color>
+
+
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="purple_200">#673AB7</color>
+    <color name="purple_700">#673AB7</color>
+    <color name="teal_200">#01B764</color>
+    <color name="teal_700">#01B764</color>
+</resources>

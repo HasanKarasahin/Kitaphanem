@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="mesajSize">12sp</dimen>
+    <dimen name="isimzaman">8sp</dimen>
+    <dimen name="mesajKutusuMargin">3dp</dimen>
+</resources>

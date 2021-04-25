@@ -1,0 +1,118 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bar</item> <!-- içerik -->
+        <item name="colorPrimaryDark">@color/barbildirim</item> <!-- bildirim cubugu -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <string name="kitapAdi">Kitap Adi</string>
+    <string name="yazarAdi">Yazar Adi</string>
+    <string name="kitapKisaBilgi">Kisa</string>
+
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <array name="iller">
+        <item>Bir il seçiniz.</item>
+        <item>Adana</item>
+        <item>Adýyaman</item>
+        <item>Afyonkarahisar</item>
+        <item>Agri</item>
+        <item>Amasya</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Artvin</item>
+        <item>Aydin</item>
+        <item>Balýkesir</item>
+        <item>Bilecik</item>
+        <item>Bingöl</item>
+        <item>Bitlis</item>
+        <item>Bolu</item>
+        <item>Burdur</item>
+        <item>Bursa</item>
+        <item>Çanakkale</item>
+        <item>Çankırı</item>
+        <item>Çorum</item>
+        <item>Denizli</item>
+        <item>Diyarbakir</item>
+        <item>Edirne</item>
+        <item>Elazig</item>
+        <item>Erzincan</item>
+        <item>Erzurum</item>
+        <item>Eskiþehir</item>
+        <item>Gaziantep</item>
+        <item>Giresun</item>
+        <item>Gümüþhane</item>
+        <item>Hakkâri</item>
+        <item>Hatay</item>
+        <item>Isparta</item>
+        <item>Ýçel (Mersin)</item>
+        <item>Ýstanbul</item>
+        <item>Ýzmir</item>
+        <item>Kars</item>
+        <item>Kastamonu</item>
+        <item>Kayseri</item>
+        <item>Kýrklareli</item>
+        <item>Kýrþehir</item>
+        <item>Kocaeli</item>
+        <item>Konya</item>
+        <item>Kütahya</item>
+        <item>Malatya</item>
+        <item>Manisa</item>
+        <item>Kahramanmaraþ</item>
+        <item>Mardin</item>
+        <item>Muðla</item>
+        <item>Muþ</item>
+        <item>Nevþehir</item>
+        <item>Niðde</item>
+        <item>Ordu</item>
+        <item>Rize</item>
+        <item>Sakarya</item>
+        <item>Samsun</item>
+        <item>Siirt</item>
+        <item>Sinop</item>
+        <item>Sivas</item>
+        <item>Tekirdað</item>
+        <item>Tokat</item>
+        <item>Trabzon</item>
+        <item>Tunceli</item>
+        <item>Þanlýurfa</item>
+        <item>Uþak</item>
+        <item>Van</item>
+        <item>Yozgat</item>
+        <item>Zonguldak</item>
+        <item>Aksaray</item>
+        <item>Bayburt</item>
+        <item>Karaman</item>
+        <item>Kýrýkkale</item>
+        <item>Batman</item>
+        <item>Þýrnak</item>
+        <item>Bartýn</item>
+        <item>Ardahan</item>
+        <item>Iðdýr</item>
+        <item>Yalova</item>
+        <item>Karabük</item>
+        <item>Kilis</item>
+        <item>Osmaniye</item>
+        <item>Düzce</item>
+    </array>
+
+</resources>
