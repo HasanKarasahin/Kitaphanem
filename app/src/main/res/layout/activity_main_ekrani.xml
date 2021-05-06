@@ -71,6 +71,7 @@
             android:layout_gravity="right|center_horizontal"
             android:gravity="right"
             android:orientation="horizontal"
+            android:alpha="1.0"
             android:visibility="invisible">
 
             <TextView
@@ -83,6 +84,9 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:gravity="right"
+                android:alpha="1.0"
+                android:textSize="18dp"
+                android:textColor="@color/black"
                 android:text="Kitap İstiyorum!"
                 android:textStyle="bold" />
 
@@ -107,6 +111,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="right"
             android:gravity="right"
+            android:alpha="1.0"
             android:visibility="invisible">
 
             <TextView
@@ -118,7 +123,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:gravity="right"
-                android:text="Kitab Bagis!"
+                android:text="Kitap Bağışla!"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:alpha="1.0"
                 android:textStyle="bold" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton

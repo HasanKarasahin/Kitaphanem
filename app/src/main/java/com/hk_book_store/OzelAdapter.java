@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -20,6 +22,9 @@ public class OzelAdapter extends BaseAdapter {
     private List<Kitap> mKitapBagisiListesi;
 
     public OzelAdapter(Activity activity, List<Kitap> kisiler) {
+        Collections.sort(kisiler, (d1, d2) -> {
+            return (int) (d2.getID() - d1.getID());
+        });
         mInflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         mKitapBagisiListesi = kisiler;}
 
@@ -46,10 +51,11 @@ public class OzelAdapter extends BaseAdapter {
         TextView tvPaylasimTarihi = satirView.findViewById(R.id.tvPaylasimTarihi);
         ImageView list_image = satirView.findViewById(R.id.list_image);
         Kitap kitap = mKitapBagisiListesi.get(position);
+
         int gelen_tip=kitap.getTip();
         if (gelen_tip==1) list_image.setImageResource(R.drawable.notebook_istek);
         tvKitapAdi.setText( kitap.getKitapAdi());
         tvYazarAdi.setText( kitap.getYazarAdi());
-        tvPaylasimTarihi.setText( " / "+kitap.getPaylasilanYer()+" / "+kitap.getPaylasimTarihi());
+        tvPaylasimTarihi.setText(kitap.getPaylasilanYer()+" / "+kitap.getPaylasimTarihi());
         return satirView;
     }}

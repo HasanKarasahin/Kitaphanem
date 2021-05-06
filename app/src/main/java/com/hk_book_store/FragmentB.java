@@ -20,6 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -99,7 +100,7 @@ public class FragmentB extends Fragment {
             @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                String formatlitarih=new SimpleDateFormat( "yyyy-MM-dd" ).format( new Date() );
+                String formatlitarih=new SimpleDateFormat( "dd.MM.yyyy" ).format( new Date() );
                 kisiler.clear();
                 for (DataSnapshot gelen:dataSnapshot.getChildren()) {
                     ktp = gelen.getValue(Kitap.class);

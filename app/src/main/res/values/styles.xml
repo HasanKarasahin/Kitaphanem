@@ -15,8 +15,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <string name="kitapAdi">Kitap Adi</string>
-    <string name="yazarAdi">Yazar Adi</string>
+    <string name="kitapAdi">Kitap Adı(*)</string>
+    <string name="yazarAdi">Yazar Adı</string>
     <string name="kitapKisaBilgi">Kisa</string>
 
     <string name="prompt_password">Password (optional)</string>

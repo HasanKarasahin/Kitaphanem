@@ -3,12 +3,16 @@ import android.app.Dialog;
 import android.app.FragmentManager;
 import android.os.Build;import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -75,6 +79,11 @@ public class MainEkrani extends AppCompatActivity implements Communicator{
         final EditText ed_yazaradi=dialog.findViewById( R.id.yazarAdi );
         final EditText ed_sehir=dialog.findViewById( R.id.kullaniciSehir );
 
+        final TextView txtHata=dialog.findViewById( R.id.txtHata );
+
+        txtHata.setText("");
+        txtHata.setVisibility(View.INVISIBLE);
+
 
         if(tx.getTag()!=null)
             ed_sehir.setText( tx.getTag().toString());
@@ -83,9 +92,18 @@ public class MainEkrani extends AppCompatActivity implements Communicator{
         btn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String formatlitarih=new SimpleDateFormat( "yyyy-MM-dd HH:mm" ).format( new Date() );
-                kitabKaydet( tip,ed_kitapadi.getText().toString(),ed_yazaradi.getText().toString(),user.getCurrentUser().getEmail(),formatlitarih,ed_sehir.getText().toString() );
-                dialog.dismiss();
+
+                txtHata.setText("");
+                txtHata.setVisibility(View.INVISIBLE);
+
+                if((ed_kitapadi.getText().toString()).trim().equals("")){
+                    txtHata.setText("Kitap Adı boş geçilemez.");
+                    txtHata.setVisibility(View.VISIBLE);
+                }else{
+                    String formatlitarih=new SimpleDateFormat( "dd.MM.yyyy HH:mm" ).format( new Date() );
+                    kitabKaydet( tip,ed_kitapadi.getText().toString(),ed_yazaradi.getText().toString(),user.getCurrentUser().getEmail(),formatlitarih,ed_sehir.getText().toString() );
+                    dialog.dismiss();
+                }
             }
         } );
     }

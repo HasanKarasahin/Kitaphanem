@@ -85,7 +85,7 @@
             android:background="@drawable/buton_tasarimi_tiklama"
             android:clickable="true"
             android:gravity="center"
-            android:text="Kitap Taleb"
+            android:text="Kitap İsteyenler"
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
 

@@ -83,16 +83,4 @@
         android:textColor="@color/uyeButtonColor"
         android:layout_marginBottom="8dp"
         />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hasan Karaşahin"
-        android:gravity="center"
-        android:textColor="@color/uyeButtonColor"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/coder2"
-        android:gravity="center"
-        android:textColor="@color/uyeButtonColor"/>
 </LinearLayout>

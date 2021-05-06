@@ -78,6 +78,16 @@
                 android:singleLine="true"
                 android:text="ADANA" />
 
+            <TextView
+                android:id="@+id/txtHata"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                ></TextView>
+
+
             <Button
                 android:id="@+id/btn"
                 style="?android:textAppearanceSmall"
@@ -86,7 +96,7 @@
                 android:layout_marginLeft="60dp"
                 android:layout_marginRight="60dp"
                 android:layout_marginTop="16dp"
-                android:text="Bagisla"
+                android:text="Kitap Bagişla"
                 android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>

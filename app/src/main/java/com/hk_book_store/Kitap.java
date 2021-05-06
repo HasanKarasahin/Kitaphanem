@@ -1,11 +1,18 @@
 package com.hk_book_store;
 
-public class Kitap {
+import java.sql.Timestamp;
+
+public class Kitap implements Comparable<Kitap> {
     private String kitapAdi,yazarAdi,paylasanKisi, paylasimTarihi,paylasilanYer;
+    private Long ID;
     private int tip;
     public Kitap(){}
 
     public Kitap(int tip,String kitapAdi,String yazarAdi,String paylasankisi,String paylasimTarihi,String paylasilanyer){
+
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+
+        this.ID = timestamp.getTime();
         this.tip=tip;
         this.setKitapAdi( kitapAdi );
         this.setYazarAdi( yazarAdi );
@@ -52,4 +59,14 @@ public class Kitap {
 
     public void setPaylasilanYer(String paylasilanYer) {
         this.paylasilanYer = paylasilanYer;
-    }}
+    }
+
+    public Long getID(){
+        return this.ID;
+    }
+
+    @Override
+    public int compareTo(Kitap d) {
+        return (int) (this.ID - d.getID());
+    }
+}
