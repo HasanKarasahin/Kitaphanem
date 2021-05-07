@@ -10,12 +10,14 @@ public class Kullanici implements Serializable {
     private String kullaniciKey;
     private String kullaniciAdi;
     private String il;
-  
-    public Kullanici(){}
-    public Kullanici(String kullaniciAdi,String kullaniciKey,String il){
-        this.kullaniciAdi=kullaniciAdi;
-        this.kullaniciKey=kullaniciKey;
-        this.il=il;
+
+    public Kullanici() {
+    }
+
+    public Kullanici(String kullaniciAdi, String kullaniciKey, String il) {
+        this.kullaniciAdi = kullaniciAdi;
+        this.kullaniciKey = kullaniciKey;
+        this.il = il;
     }
 
 
@@ -24,7 +26,7 @@ public class Kullanici implements Serializable {
     }
 
     public void setKullaniciAdi(String kullaniciAdi) {
-        this.kullaniciAdi=kullaniciAdi;
+        this.kullaniciAdi = kullaniciAdi;
     }
 
     public String getKullaniciKey() {

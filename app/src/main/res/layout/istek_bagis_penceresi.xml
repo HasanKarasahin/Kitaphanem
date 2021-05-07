@@ -5,11 +5,11 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:background="@drawable/shape"
-    app:cardCornerRadius="20sp"
     android:foregroundGravity="center"
     android:gravity="center"
     android:orientation="vertical"
     android:textAlignment="center"
+    app:cardCornerRadius="20sp"
     app:layout_anchorGravity="center"
     tools:context=".MainEkrani">
 
@@ -80,12 +80,11 @@
 
             <TextView
                 android:id="@+id/txtHata"
-                android:visibility="invisible"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textAlignment="center"
                 android:textColor="@color/red"
-                ></TextView>
+                android:visibility="invisible"></TextView>
 
 
             <Button
@@ -94,8 +93,8 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginRight="60dp"
                 android:text="Kitap Bagişla"
                 android:textStyle="bold" />
         </LinearLayout>

@@ -8,12 +8,12 @@ import com.google.firebase.database.FirebaseDatabase;
  */
 
 public class FireBasedb {
-   private FirebaseDatabase database ;
-   private DatabaseReference dbRef;
+    private FirebaseDatabase database;
+    private DatabaseReference dbRef;
 
-    public DatabaseReference referansEdilen(String ref){
-        database= FirebaseDatabase.getInstance();
-        this.setDbRef( database.getReference(ref) );
+    public DatabaseReference referansEdilen(String ref) {
+        database = FirebaseDatabase.getInstance();
+        this.setDbRef(database.getReference(ref));
         return getDbRef();
     }
 

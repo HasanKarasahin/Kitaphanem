@@ -9,7 +9,6 @@
     android:orientation="horizontal">
 
 
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSag"
         android:layout_width="250dp"
@@ -30,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:textColor="#eefffc"
-                android:textSize="@dimen/isimzaman"/>
+                android:textSize="@dimen/isimzaman" />
 
             <TextView
                 android:id="@+id/textViewMesajim"
@@ -50,7 +49,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#eefffc"
-                    android:textSize="@dimen/isimzaman"/>
+                    android:textSize="@dimen/isimzaman" />
             </LinearLayout>
 
         </LinearLayout>

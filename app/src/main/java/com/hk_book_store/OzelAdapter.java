@@ -26,7 +26,8 @@ public class OzelAdapter extends BaseAdapter {
             return (int) (d2.getID() - d1.getID());
         });
         mInflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        mKitapBagisiListesi = kisiler;}
+        mKitapBagisiListesi = kisiler;
+    }
 
     @Override
     public int getCount() {
@@ -35,7 +36,8 @@ public class OzelAdapter extends BaseAdapter {
 
     @Override
     public Kitap getItem(int position) {
-        return mKitapBagisiListesi.get(position);}
+        return mKitapBagisiListesi.get(position);
+    }
 
     @Override
     public long getItemId(int position) {
@@ -47,15 +49,16 @@ public class OzelAdapter extends BaseAdapter {
         View satirView;
         satirView = mInflater.inflate(R.layout.satir_layout, null);
         TextView tvKitapAdi = satirView.findViewById(R.id.tvKitapAdi);
-        TextView tvYazarAdi = satirView.findViewById(R.id.tvYazarAdi );
+        TextView tvYazarAdi = satirView.findViewById(R.id.tvYazarAdi);
         TextView tvPaylasimTarihi = satirView.findViewById(R.id.tvPaylasimTarihi);
         ImageView list_image = satirView.findViewById(R.id.list_image);
         Kitap kitap = mKitapBagisiListesi.get(position);
 
-        int gelen_tip=kitap.getTip();
-        if (gelen_tip==1) list_image.setImageResource(R.drawable.notebook_istek);
-        tvKitapAdi.setText( kitap.getKitapAdi());
-        tvYazarAdi.setText( kitap.getYazarAdi());
-        tvPaylasimTarihi.setText(kitap.getPaylasilanYer()+" / "+kitap.getPaylasimTarihi());
+        int gelen_tip = kitap.getTip();
+        if (gelen_tip == 1) list_image.setImageResource(R.drawable.notebook_istek);
+        tvKitapAdi.setText(kitap.getKitapAdi());
+        tvYazarAdi.setText(kitap.getYazarAdi());
+        tvPaylasimTarihi.setText(kitap.getPaylasilanYer() + " / " + kitap.getPaylasimTarihi());
         return satirView;
-    }}
+    }
+}

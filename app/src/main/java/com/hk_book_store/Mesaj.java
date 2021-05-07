@@ -1,15 +1,20 @@
 package com.hk_book_store;
 
 public class Mesaj {
-    private String gonderen,mesaj,zaman;
-    public Mesaj(){}
+    private String gonderen, mesaj, zaman;
+
+    public Mesaj() {
+    }
 
     public Mesaj(String gonderen, String mesaj, String zaman) {
         this.gonderen = gonderen;
         this.mesaj = mesaj;
-        this.zaman = zaman;}
+        this.zaman = zaman;
+    }
 
-    public String getGonderen() {return gonderen;}
+    public String getGonderen() {
+        return gonderen;
+    }
 
     public void setGonderen(String gonderen) {
         this.gonderen = gonderen;

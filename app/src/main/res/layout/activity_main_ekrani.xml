@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,15 +10,13 @@
     tools:context=".MainEkrani">
 
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="8dp">
 
 
         <fragment
@@ -28,9 +25,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="0dp"
+            tools:layout="@layout/activity_fragment"
             tools:layout_editor_absoluteX="105dp"
-            tools:layout_editor_absoluteY="185dp"
-            tools:layout="@layout/activity_fragment" />
+            tools:layout_editor_absoluteY="185dp" />
 
         <fragment
             android:id="@+id/fragment2"
@@ -44,17 +41,14 @@
     </LinearLayout>
 
 
-
-
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,9 +63,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="right|center_horizontal"
+            android:alpha="1.0"
             android:gravity="right"
             android:orientation="horizontal"
-            android:alpha="1.0"
             android:visibility="invisible">
 
             <TextView
@@ -79,15 +73,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
                 android:layout_weight="1"
-                android:gravity="right"
                 android:alpha="1.0"
-                android:textSize="18dp"
-                android:textColor="@color/black"
+                android:gravity="right"
                 android:text="Kitap İstiyorum!"
+                android:textColor="@color/black"
+                android:textSize="18dp"
                 android:textStyle="bold" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -95,14 +89,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right"
-                android:layout_marginBottom="20dp"
-                android:layout_marginRight="20dp"
                 android:layout_marginTop="5dp"
-                android:foregroundGravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
                 android:background="@color/kirmizi"
-                app:backgroundTint="@color/kirmizi"
+                android:foregroundGravity="right"
                 android:onClick="btn_kitapistiyorum"
-                android:src="@drawable/notebook_istek" />
+                android:src="@drawable/notebook_istek"
+                app:backgroundTint="@color/kirmizi" />
         </LinearLayout>
 
         <LinearLayout
@@ -110,23 +104,23 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="right"
-            android:gravity="right"
             android:alpha="1.0"
+            android:gravity="right"
             android:visibility="invisible">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
                 android:layout_weight="1"
+                android:alpha="1.0"
                 android:gravity="right"
                 android:text="Kitap Bağışla!"
-                android:textSize="18dp"
                 android:textColor="@color/black"
-                android:alpha="1.0"
+                android:textSize="18dp"
                 android:textStyle="bold" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -134,15 +128,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right"
-                android:layout_marginBottom="20dp"
-                android:layout_marginRight="20dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/kirmizi"
                 android:foregroundGravity="right"
                 android:onClick="btn_kitapbagis"
-                android:background="@color/kirmizi"
-                app:backgroundTint="@color/kirmizi"
                 android:src="@drawable/notebook"
-                 />
+                app:backgroundTint="@color/kirmizi" />
         </LinearLayout>
 
         <LinearLayout
@@ -157,9 +150,9 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_gravity="bottom|right"
-                android:layout_marginBottom="20dp"
-                android:layout_marginRight="20dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
                 android:background="@color/kirmizi"
                 android:foregroundGravity="right"
                 android:onClick="btn_secim"
