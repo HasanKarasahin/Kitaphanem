@@ -21,7 +21,8 @@
         <activity android:name=".KayitEkrani" />
         <activity android:name=".YeniParolaEkrani" />
         <activity android:name=".MainEkrani" />
-        <activity android:name=".ChatEkrani"></activity>
+        <activity android:name=".ChatEkrani"
+            android:windowSoftInputMode="stateHidden"></activity>
     </application>
 
 </manifest>
